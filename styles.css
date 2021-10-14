@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background: url(img/item3.png) no-repeat center center/cover;
+}
+
+.container {
+  width: 95%;
+  margin: 20px auto;
+  padding: 20px 40px;
+}
+
+h1 {
+  width: 90%;
+  margin: 10px auto;
+  padding: 20px 10px;
+  color: crimson;
+  font-size: 65px;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  width: 80%;
+  margin: 5px auto;
+  padding: 8px;
+  color: tan;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 40px;
+}
+
+table {
+  width: 75%;
+  margin: 20px auto;
+}
+
+table,
+th,
+td {
+  /* border: 5px solid #000; */
+  text-align: center;
+  margin: 5px auto;
+}
+
+th {
+  font-size: 80px;
+  font-weight: 600;
+  color: palevioletred;
+  font-family: 'Alumni Sans', sans-serif;
+}
+
+td {
+  font-family: 'Glory', sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  color: saddlebrown;
+}
+
+ul {
+  width: 80%;
+  margin: 30px auto;
+  /* padding-left: 80px; */
+  font-family: 'Oswald', sans-serif;
+}
+
+li {
+  display: inline-block;
+  width: 12%;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 10px 8px;
+  padding: 5px;
+  color: maroon;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.say_day {
+  color: orangered;
+  text-shadow: 5px 5px 3px;
+}
+
+.set_hr,
+.set_min,
+.set_sec {
+  font-family: 'Orbitron', sans-serif;
+}
+
+@media(max-width: 480px) {
+  .container {
+    padding: 15px 0;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  ul {
+    width: 90%;
+    padding-left: 0;
+  }
+
+  li {
+    width: 13%;
+    font-size: 19px;
+    margin: 10px 0;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .set_hr,
+  .set_min,
+  .set_sec {
+    font-size: 65px;
+  }
+
+  table {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+}
+
+@media(min-width: 481px) and (max-width: 768px) {
+  .container {
+    padding: 30px 0;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  li {
+    font-size: 25px;
+    margin: 10px 0;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  table {
+    width: 80%;
+    margin: 20px auto;
+  }
+}
